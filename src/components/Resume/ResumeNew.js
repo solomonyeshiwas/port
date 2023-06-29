@@ -8,7 +8,7 @@ import { Document, Page, pdfjs } from "react-pdf";
 import "react-pdf/dist/esm/Page/AnnotationLayer.css";
 pdfjs.GlobalWorkerOptions.workerSrc = `//cdnjs.cloudflare.com/ajax/libs/pdf.js/${pdfjs.version}/pdf.worker.min.js`;
 
-const resumeLink ="gs://mymern-ae83d.appspot.com/solomoncv2023.pdf";
+const resumeLink ="https://github.com/solomonyeshiwas/port/blob/main/src/Assets/solomoncv2023.pdf";
 
 function ResumeNew() {
   const [width, setWidth] = useState(1200);
