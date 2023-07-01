@@ -25,7 +25,7 @@ function Projects() {
               isBlog={false}
               title="Gebeya e-Commerce"
               description="a MERN stack e-commerce platform"
-              demoLink="https://www.google.com"
+              demoLink="https://gebeyacommerce.vercel.app/"
             />
           </Col>
 
