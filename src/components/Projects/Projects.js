@@ -45,7 +45,7 @@ function Projects() {
               isBlog={false}
               title="A Job Portal Website "
               description="A WordPress job finding website "
-              demoLink="https://jobs4ethio.com/"              
+              demoLink="https://afalagijobs.com/"              
             />
           </Col>
 
