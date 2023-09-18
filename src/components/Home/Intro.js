@@ -36,9 +36,8 @@ and I spent a lot of my free time exploring different programming languages and 
               Whenever possible, I also apply my passion for developing products with &nbsp;
               <i>
                 <b className="purple">Node.js </b> and also in{" "}
-                <b className="purple"> Modern Javascript Library</b>
+                <b className="purple"> Modern Javascript Libraries</b>
               </i>
-              <br />
 
               and
               <b className="purple"> Frameworks </b> like
@@ -46,7 +45,7 @@ and I spent a lot of my free time exploring different programming languages and 
                 <b className="purple"> React.js</b>
               </i>
               &nbsp; and
-              <b className="purple"> Next.js .</b> 
+              <b className="purple"> React Native .</b> 
               <br/>
               Now I am working at <span className="purple">Hagbes plc</span> as a Software Engineer
             </p>
@@ -86,7 +85,7 @@ and I spent a lot of my free time exploring different programming languages and 
               </li>
               <li className="social-icons">
                 <a
-                  href="https://www.linkedin.com/in//"
+                  href="https://www.linkedin.com/in/selestyle/"
                   target="_blank"
                   rel="noreferrer"
                   className="icon-colour  home-social-icons"
