@@ -6,7 +6,8 @@ import pms from "../../Assets/Projects/pms.png";
 import ytclone from "../../Assets/Projects/ytclone.png";
 import gebeya from "../../Assets/Projects/Gebeya.jpg";
 import jobs4ethio from "../../Assets/Projects/jobs4ethio.png";
-
+import lpms from "../../Assets/Projects/lpms.jpg";
+import avital from "../../Assets/Projects/avital.PNG";
 function Projects() {
   return (
     <Container fluid className="project-section">
@@ -19,7 +20,42 @@ function Projects() {
           Here are a few projects I've worked on recently.
         </p>
         <Row style={{ justifyContent: "center", paddingBottom: "10px" }}>
-          <Col md={4} className="project-card">
+        
+        <Col md={4} className="project-card">
+        <ProjectCard
+          imgPath={pms}
+          isBlog={false}
+          title="PMS"
+          description="Project Management System"
+          demoLink="https://pms.hagbes.com"
+        />
+      </Col>
+
+ 
+      <Col md={4} className="project-card">
+      <ProjectCard
+        imgPath={lpms}
+        isBlog={false}
+        title="LPMS"
+        description="Local Procurement Management System"
+        demoLink="https://lpms.hagbes.com"
+      />
+    </Col>
+
+
+    <Col md={4} className="project-card">
+    <ProjectCard
+      imgPath={avital}
+      isBlog={false}
+      title="Avital Medical Center"
+      description="A website that Avital Medical Center"
+      demoLink="https://gebeyacommerce.vercel.app/"
+    />
+  </Col>
+
+
+
+           <Col md={4} className="project-card">
             <ProjectCard
               imgPath={gebeya}
               isBlog={false}
@@ -49,15 +85,7 @@ function Projects() {
             />
           </Col>
 
-          <Col md={4} className="project-card">
-            <ProjectCard
-              imgPath={pms}
-              isBlog={false}
-              title="PMS"
-              description="Project Management System"
-              demoLink="https://pms.hagbes.com"
-            />
-          </Col>
+        
           
         </Row>
       </Container>
